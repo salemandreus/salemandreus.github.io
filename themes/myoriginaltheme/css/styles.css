@@ -1,3 +1,7 @@
+body {
+    /*background-image: url("themes/background-images/Black Blue Abstract Wallpaper 2781 Hd Wallpapers in Abstract.jpg");*/
+    background-color: #cccccc;
+}
 header h1 {
     color:rgb(119, 32, 90);
     text-align: center;
