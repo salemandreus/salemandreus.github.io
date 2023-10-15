@@ -16,16 +16,17 @@ body {
   /* Navigation Bar */
 nav ul {
     clear:both;
-    padding: 0 0.8rem 0.8rem;
+    margin: 0;
+    padding: 0;
 }
 nav li {
-    float: left;
     list-style-type: none;
 }
 nav li a {
     color:rgb(119, 32, 90);
     display: block;
-    padding: .5rem 0.8rem;
+    padding: .8rem 0.8rem; /*44 min height */
+    text-align: center;
     text-decoration:none;
 }
 nav li a.active {
@@ -40,8 +41,8 @@ header h1 {
     clear:both;
     color:rgb(119, 32, 90);
     text-align: center;
-    padding: 1.8rem 0.3rem 0;
-    margin: 1.8rem 0.8rem 0.8rem;
+    padding: 0.8rem 0.3rem 0;
+    margin: 0.8rem 0.8rem 0.8rem;
 }
 header h2 {
     color: #405b66;

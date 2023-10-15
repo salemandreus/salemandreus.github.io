@@ -1,4 +1,8 @@
 @media only screen and (min-width: 560px) {
+ /* HEADER */
+  /* Navigation Bar */
+nav ul {display:flex;}
+nav ul li {flex-basis: 25%;}
 
 
 } /* end of media query */
