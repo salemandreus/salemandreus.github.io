@@ -28,6 +28,9 @@ nav ul li a {
     color:rgb(119, 32, 90);
     text-decoration:none;
 }
+nav a:hover {
+    color: #405b66;
+}
 
   /* Headings */
 header h1 {
@@ -81,6 +84,18 @@ main ul.centred-list-block li a {
     color:rgb(119, 32, 90);
     /*padding: 0 0.5 rem;*/
     text-decoration:none;
+}
+main ul.centred-list-block li a:hover {
+    color: #405b66;
+}
+
+  /* Link/s in Main */
+main a {
+    color:rgb(119, 32, 90);
+    text-decoration:none;
+}
+main a:hover {
+    color: #405b66;
 }
 
   /* Images in Main */
