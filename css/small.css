@@ -42,6 +42,8 @@ main h1{
     padding: 1rem 0 0 0;
     text-align: center;
 }
+
+/* Overview List */
 main ul{
     padding: 0 0.8rem 0.8rem;
 }
@@ -49,30 +51,25 @@ main ul li{
     list-style-type: none;
     padding: .5rem 0.8rem;
 }
-.centre-block {
-    /*margin: auto;
-    width: 40%;*/
-    padding: 0 0.8rem 0.8rem;
-    text-align: center;
+
+/* Centred List of Links */
+div.centred-block {
+    margin: auto;
+    width: 250px;         /*had to set it manually, kept having issues otherwise */
+    padding: 0;
+    text-align: justify;
     /*align-items: center;*/
 }
 main ul.centred-list-block {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align: left;
-    display: inline-block;
+    display:list-item;
     list-style-type: none;
-    /*align-items: center;*/
 }
 main ul.centred-list-block li {
-    width: 100%;
+    text-align: left;
 }
 main ul.centred-list-block li a {
     color:rgb(119, 32, 90);
-    width: 100%;
-    margin: 0;
-    padding: 0; /* 0.5 rem 0.8rem;*/
+    /*padding: 0 0.5 rem;*/
     text-decoration:none;
 }
 main img{
