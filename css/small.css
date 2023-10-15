@@ -25,7 +25,7 @@ nav li {
 nav li a {
     color:rgb(119, 32, 90);
     display: block;
-    padding: .8rem 0.8rem; /*44 min height */
+    padding: 0.8rem 0.8rem; /*44 min height */
     text-align: center;
     text-decoration:none;
 }
