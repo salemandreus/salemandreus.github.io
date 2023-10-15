@@ -18,15 +18,18 @@ nav ul {
     clear:both;
     padding: 0 0.8rem 0.8rem;
 }
-nav ul li {
+nav li {
     float: left;
     list-style-type: none;
 }
-nav ul li a {
+nav li a {
+    color:rgb(119, 32, 90);
     display: block;
     padding: .5rem 0.8rem;
-    color:rgb(119, 32, 90);
     text-decoration:none;
+}
+nav li a.active {
+    color: #405b66;
 }
 nav a:hover {
     color: #405b66;
