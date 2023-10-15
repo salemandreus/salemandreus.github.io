@@ -57,3 +57,13 @@ footer {
     clear:both;
     text-align: center;
 }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*html {-webkit-text-size-adjust: 100%;      is in normalize.css file - prevents iphones and MS phones
+-ms-text-size-adjust: 100%;}                    from trying to enlarge text between portrait and landscape modes*/
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
