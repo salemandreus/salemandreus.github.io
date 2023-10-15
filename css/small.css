@@ -69,10 +69,16 @@ main ul li{
     padding: .5rem 0.8rem;
 }
 
+  /* Paragraph */
+main p {
+    padding: 0 1.6rem;
+
+}
+
   /* List of Links - centred */
 div.centred-block {
     margin: auto;
-    width: 250px;         /*had to set it manually, kept having issues otherwise */
+    /*width: 250px;         /*had to set it manually, kept having issues otherwise */
     padding: 0;
     text-align: justify;
     /*align-items: center;*/
@@ -87,6 +93,7 @@ main ul.centred-list-block li {
 main ul.centred-list-block li a {
     color:rgb(119, 32, 90);
     /*padding: 0 0.5 rem;*/
+    padding: 0.8rem 0.8rem;
     text-decoration:none;
 }
 main ul.centred-list-block li a:hover {
