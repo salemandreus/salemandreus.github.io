@@ -13,11 +13,13 @@ body {
 header h1 {
     color:rgb(119, 32, 90);
     text-align: center;
+    margin: 1.8rem 0.8rem 0.8rem;
 }
 header h2 {
     color: #405b66;
     text-align: center;
-    padding: 0.1rem 0 0.8rem 0;
+    padding: 0.1rem 0.8rem 0.8rem;
+    margin: 0 0.8rem 1.8rem;
 }
 /*nav ul {
     padding: 0;
