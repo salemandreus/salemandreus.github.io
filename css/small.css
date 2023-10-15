@@ -49,19 +49,30 @@ main ul li{
     list-style-type: none;
     padding: .5rem 0.8rem;
 }
-div {
-    margin: auto;
-    width: 50%;
-    padding: 10 px;
+.centre-block {
+    /*margin: auto;
+    width: 40%;*/
+    padding: 0 0.8rem 0.8rem;
+    text-align: center;
+    /*align-items: center;*/
+}
+main ul.centred-list-block {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+    /*align-items: center;*/
 }
 main ul.centred-list-block li {
-    display: block;
-    list-style-type: none;
-    padding: 0.5 rem 0.8rem;
-    text-align: left;
+    width: 100%;
 }
 main ul.centred-list-block li a {
     color:rgb(119, 32, 90);
+    width: 100%;
+    margin: 0;
+    padding: 0; /* 0.5 rem 0.8rem;*/
     text-decoration:none;
 }
 main img{
