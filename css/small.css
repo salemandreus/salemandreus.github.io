@@ -2,6 +2,8 @@
 
 /*html {-webkit-text-size-adjust: 100%;      is in normalize.css file - prevents iphones and MS phones
 -ms-text-size-adjust: 100%;}                    from trying to enlarge text between portrait and landscape modes*/
+
+/* BODY */
 body {
     font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
@@ -9,6 +11,9 @@ body {
     /*background-image: url("Black Blue Abstract Wallpaper 2781 Hd Wallpapers in Abstract.jpg");*/
     background-color: #cccccc;
 }
+
+ /* HEADER */
+  /* Navigation Bar */
 nav ul {
     clear:both;
     padding: 0 0.8rem 0.8rem;
@@ -23,6 +28,8 @@ nav ul li a {
     color:rgb(119, 32, 90);
     text-decoration:none;
 }
+
+  /* Headings */
 header h1 {
     clear:both;
     color:rgb(119, 32, 90);
@@ -36,6 +43,9 @@ header h2 {
     padding: 0.1rem 1rem 0.8rem;
     margin: 0 0.8rem 1.8rem;
 }
+
+/* MAIN */
+  /* Section Heading */
 main h1{
     color: #405b66;
     clear:both;
@@ -43,7 +53,7 @@ main h1{
     text-align: center;
 }
 
-/* Overview List */
+  /* Overview List */
 main ul{
     padding: 0 0.8rem 0.8rem;
 }
@@ -52,7 +62,7 @@ main ul li{
     padding: .5rem 0.8rem;
 }
 
-/* Centred List of Links */
+  /* List of Links - centred */
 div.centred-block {
     margin: auto;
     width: 250px;         /*had to set it manually, kept having issues otherwise */
@@ -72,9 +82,12 @@ main ul.centred-list-block li a {
     /*padding: 0 0.5 rem;*/
     text-decoration:none;
 }
-main img{
+
+  /* Images in Main */
     float: right;
 }
+
+/* FOOTER */
 footer {
     clear:both;
     text-align: center;
