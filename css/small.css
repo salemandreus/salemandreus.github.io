@@ -11,7 +11,7 @@ body {
 }
 nav ul {
     clear:both;
-    padding: 0 0 0.8rem;
+    padding: 0 0.8rem 0.8rem;
 }
 nav ul li {
     float: left;
@@ -27,13 +27,13 @@ header h1 {
     clear:both;
     color:rgb(119, 32, 90);
     text-align: center;
-    padding: 1.8rem 0.8rem 0;
+    padding: 1.8rem 0.3rem 0;
     margin: 1.8rem 0.8rem 0.8rem;
 }
 header h2 {
     color: #405b66;
     text-align: center;
-    padding: 0.1rem 0.8rem 0.8rem;
+    padding: 0.1rem 1rem 0.8rem;
     margin: 0 0.8rem 1.8rem;
 }
 main h1{
@@ -41,6 +41,9 @@ main h1{
     clear:both;
     padding: 1rem 0 0 0;
     text-align: center;
+}
+main ul{
+    padding: 0 0.8rem 0.8rem;
 }
 main ul li{
     list-style-type: none;
