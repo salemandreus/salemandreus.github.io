@@ -12,6 +12,20 @@ body {
     background-color: #cccccc;
 }
 
+  /* All Links */
+a {
+    color:rgb(119, 32, 90);
+    text-decoration:none;
+}
+a:hover {
+    font-weight:bolder;
+    text-decoration: underline;
+}
+a.active {
+    color: #405b66;
+    text-decoration:none;
+    font-weight:100;
+}
  /* HEADER */
 div#headerWrapper  {
     background-color:black;
@@ -28,17 +42,9 @@ nav li {
     list-style-type: none;
 }
 nav li a {
-    color:rgb(119, 32, 90);
     display: block;
     padding: 0.8rem 0.8rem; /*44 min height */
     text-align: center;
-    text-decoration:none;
-}
-nav li a.active {
-    color: #405b66;
-}
-nav a:hover {
-    color: #405b66;
 }
 
   /* Headings */
@@ -90,30 +96,14 @@ div.centred-block {
     padding: 0;
     text-align: justify;
 }
-main ul.centred-list-block {
+ul.centred-list-block {
     display:list-item;
     list-style-type: none;
     margin: 0;
     padding: 0 0.8rem;
 }
-main ul.centred-list-block li {
+ul.centred-list-block li {
     text-align: left;
-}
-main ul.centred-list-block li a {
-    color:rgb(119, 32, 90);
-    text-decoration:none;
-}
-main ul.centred-list-block li a:hover {
-    color: #405b66;
-}
-
-  /* Link/s in Main */
-main a {
-    color:rgb(119, 32, 90);
-    text-decoration:none;
-}
-main a:hover {
-    color: #405b66;
 }
 
   /* Images in Main */
