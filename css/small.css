@@ -26,10 +26,16 @@ a.active {
     text-decoration:none;
     font-weight:100;
 }
+
  /* HEADER */
 div#headerWrapper  {
     background-color:black;
     text-shadow:none;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0.8rem 0.8rem;
 }
 
   /* Navigation Bar */
@@ -71,23 +77,26 @@ main h1{
     text-align: center;
 }
 
-  /* Overview List */
-main ul{
-    padding: 0 0.8rem 0.8rem;
+main h2{
+    margin: 0.8rem 0 0;
 }
+
+  /* Overview List */
 main ul li{
     list-style-type: none;
     padding: .5rem 0.8rem;
 }
+
 ul.bulleted-list li {
     list-style-type: disc;
     padding: .5rem 0.8rem;
-    margin: 0 2.6rem
+    margin: 0 2rem 0;
 }
 
   /* Paragraph */
 main p {
     padding: 0 1.6rem;
+    margin: 0.2rem;
 }
 
   /* List of Links - centred */
