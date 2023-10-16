@@ -30,11 +30,9 @@ main h1 {
 main ul.centred-list-block {
     display: flex;
 }
-
 main ul.centred-list-block li {
     flex-basis: 35%;
 }
-
 main ul.centred-list-block li a {
     text-align: center;
     display: flex;
