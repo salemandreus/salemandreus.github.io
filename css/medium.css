@@ -4,5 +4,18 @@
 nav ul {display:flex;}
 nav ul li {flex-basis: 25%;}
 
+/* MAIN */
+  /* List of Links - centred, display flex on med-large screen */
+  main ul.centred-list-block {
+    display: flex;
+}
+main ul.centred-list-block li {
+    flex-basis: auto; /*33%;*/
+}
+main ul.centred-list-block li a {
+    text-align: center;
+    display: flex;
+    flex-basis:auto;
+}
 
 } /* end of media query */

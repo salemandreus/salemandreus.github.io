@@ -23,20 +23,9 @@ header h2{
     padding: 0 0 0.5rem;
 }
 
+/* MAIN */
 main h1 {
     margin: 0.5rem;
-}
-
-main ul.centred-list-block {
-    display: flex;
-}
-main ul.centred-list-block li {
-    flex-basis: 35%;
-}
-main ul.centred-list-block li a {
-    text-align: center;
-    display: flex;
-    flex-basis:auto;
 }
 
 } /* end of media query */
