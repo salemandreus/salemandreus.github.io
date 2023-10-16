@@ -1,5 +1,5 @@
-@media only screen and (min-width: 560px) {
- /* HEADER */
+@media only screen and (min-width: 420px) { /* centre headers h1 and h2, navbar and main links*/
+ /* HEADER */                                   /* list starts to flex */
   /* Navigation Bar */
 nav ul {display:flex;}
 nav ul li {flex-basis: 25%;}
