@@ -27,7 +27,7 @@ a.active {
     font-weight:100;
 }
 
- /* HEADER */
+/* HEADER */
 div#headerWrapper  {
     background-color:black;
     text-shadow:none;
@@ -53,7 +53,7 @@ nav li a {
     text-align: center;
 }
 
-  /* Headings */
+ /* Headings */
 header h1 {
     clear:both;
     color:rgb(119, 32, 90);
