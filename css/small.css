@@ -90,6 +90,8 @@ div.centred-block {
 main ul.centred-list-block {
     display:list-item;
     list-style-type: none;
+    margin: 0;
+    padding: 0 0.8rem;
 }
 main ul.centred-list-block li {
     text-align: left;
@@ -97,7 +99,7 @@ main ul.centred-list-block li {
 main ul.centred-list-block li a {
     color:rgb(119, 32, 90);
     /*padding: 0 0.5 rem;*/
-    padding: 0.8rem 0.8rem;
+    /*padding: 0.8rem 0rem;*/
     text-decoration:none;
 }
 main ul.centred-list-block li a:hover {
