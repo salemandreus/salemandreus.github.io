@@ -1,5 +1,5 @@
-@media only screen and (min-width:1028px) {
- /* HEADER */
+@media only screen and (min-width:700px /*1028px*/) { /* make Header h1 and h1 text align right */
+ /* HEADER */                                            /* after this size and navbar left instead of spread li */
   /* Navigation Bar */
 /*nav ul {padding-left: 1%;}*/
 nav ul li {flex-basis: auto;}
