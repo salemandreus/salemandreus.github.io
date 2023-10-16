@@ -73,6 +73,11 @@ main ul li{
     list-style-type: none;
     padding: .5rem 0.8rem;
 }
+ul.bulleted-list li {
+    list-style-type: disc;
+    padding: .5rem 0.8rem;
+    margin: 0 2.6rem
+}
 
   /* Paragraph */
 main p {
