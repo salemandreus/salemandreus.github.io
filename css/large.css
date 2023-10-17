@@ -1,6 +1,7 @@
-@media only screen and (min-width:700px /*1028px*/) { /* make Header h1 and h1 text align right */
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+/*@media only screen and (min-width:700px ) { */ /* make Header h1 and h1 text align right */
                                                        /* after this size and navbar left instead of spread li */
-
 /* =================================== BODY =============================================== */
 /* ------------------------------- HEADER START ----------------------------------------------- */
   /* ----------------------------- NAVIGATION ---------------------------------------------- */

@@ -1,4 +1,5 @@
-@media only screen and (min-width: 560px) { /* min size we can fit 5 flexed menu items horizontally */
+/* 35em is also 560px when basefont is 16px */ /* this is also the min size we can fit 5 flexed menu items horizontally */
+@media only screen and (min-width: 35rem) {                   /* and the 4 "centre links" below of current size
 
 /* =================================== BODY =============================================== */
 /* ------------------------------- HEADER START ----------------------------------------------- */
