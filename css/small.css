@@ -62,9 +62,6 @@ nav ul {
     padding: 0;
     list-style-type: none;
 }
-/*nav li {
-    list-style-type: none;
-}*/
 nav li a {
     display: block;
     padding: 0.8rem 2%; /*44 min height */
