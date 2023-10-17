@@ -8,10 +8,15 @@ nav button {
   display: none;
 }
 nav ul {
+  margin-left: 2%;
   display:flex;
 }
 nav ul li {
   flex-basis: 25%;
+}
+nav a {
+  border: none;
+  padding: 0.8rem 1rem;
 }
   /* ------------------------------ END NAVIGATION ---------------------------------------------- */
 /* -------------------------------- END HEADER ----------------------------------------------- */
