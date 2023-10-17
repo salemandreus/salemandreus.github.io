@@ -4,6 +4,8 @@
 -ms-text-size-adjust: 100%;}                    from trying to enlarge text between portrait and landscape modes*/
 
 /* BODY */
+
+/* Fonts and Background Colour */
 body {
     font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
@@ -12,7 +14,7 @@ body {
     background-color: #cccccc;
 }
 
-  /* All Links */
+/* All Links */
 a {
     color:rgb(119, 32, 90);
     text-decoration:none;
@@ -27,15 +29,23 @@ a.active {
     font-weight:100;
 }
 
-/* HEADER */
-div#headerWrapper  {
-    background-color:black;
-    text-shadow:none;
-}
-
+/* All Unordered Lists */
 ul {
     margin: 0;
     padding: 0 0.8rem 0.8rem;
+}
+
+/* All H2 Headings */
+h2 {
+    color: #405b66;
+    text-align: center;
+    padding: 0.1rem 1rem 0.8rem;
+    margin: 0 0.8rem 0.8rem;
+}
+
+div#headerWrapper  {
+    background-color:black;
+    text-shadow:none;
 }
 
   /* Navigation Bar */
@@ -60,20 +70,14 @@ nav li a {
     padding: 0.8rem 2%; /*44 min height */
     text-align: center;
 }
- /* Headings */
 
+  /* Headings */
 header h1 {
     clear:both;
     color:rgb(119, 32, 90);
     text-align: center;
     padding: 0rem 0.3rem 0;
     margin: 0rem 0.8rem 0rem;
-}
-h2 {
-    color: #405b66;
-    text-align: center;
-    padding: 0.1rem 1rem 0.8rem;
-    margin: 0 0.8rem 0.8rem;
 }
 
 /* MAIN */
@@ -89,25 +93,26 @@ main h2{
     margin: 0.8rem 0 0;
 }
 
+  /* Paragraph */
+ main p {
+    padding: 0 1.6rem;
+    margin: 0.2rem;
+}
+
   /* Overview List */
 main ul li {
     list-style-type: none;
     padding: .5rem 0.8rem;
 }
 
+  /* Bulleted Lists */
 ul.bulleted-list li {
     list-style-type: disc;
     padding: .5rem 0.8rem;
     margin: 0 2rem 0;
 }
 
-  /* Paragraph */
-main p {
-    padding: 0 1.6rem;
-    margin: 0.2rem;
-}
-
-  /* List of Links - centred */
+  /* Centred List of Links */
 div.centred-block {
     margin: auto;
     padding: 0;
