@@ -39,6 +39,14 @@ ul {
 }
 
   /* Navigation Bar */
+nav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    color: #405b66;
+    border: none;
+    font-size: 1.6rem; /* 44px min height */
+}
+
 nav ul {
     clear:both;
     margin: 0;
