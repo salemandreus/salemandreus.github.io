@@ -1,10 +1,14 @@
 @media only screen and (min-width:700px /*1028px*/) { /* make Header h1 and h1 text align right */
- /* HEADER */                                            /* after this size and navbar left instead of spread li */
- /* Navigation Bar */
+                                                       /* after this size and navbar left instead of spread li */
+
+/* =================================== BODY =============================================== */
+/* ------------------------------- HEADER START ----------------------------------------------- */
+  /* ----------------------------- NAVIGATION ---------------------------------------------- */
 /*nav ul {padding-left: 1%;}*/
 nav ul li {
     flex-basis: auto;
 }
+  /* ------------------------------ END NAVIGATION ---------------------------------------------- */
 
 header, footer {
     padding: 0 8%;
@@ -15,8 +19,9 @@ header h1, header h2 {
 header h2{
     padding: 0 0 0.5rem;
 }
+/* -------------------------------- END HEADER ----------------------------------------------- */
 
-/* MAIN */
+/* -------------------------------- MAIN ----------------------------------------------- */
 main {
     padding: 0 5%;
     /*max-width: 64 rem;
@@ -25,5 +30,5 @@ main {
 main h1 {
     margin: 0.5rem;
 }
-
+/* ------------------------------- END MAIN ---------------------------------------------- */
 } /* end of media query */

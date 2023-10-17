@@ -1,6 +1,8 @@
 @media only screen and (min-width: 560px) { /* min size we can fit 5 flexed menu items horizontally */
- /* HEADER */
-  /* Navigation Bar */
+
+/* =================================== BODY =============================================== */
+/* ------------------------------- HEADER START ----------------------------------------------- */
+  /* ----------------------------- NAVIGATION ---------------------------------------------- */
 nav button {
   display: none;
 }
@@ -10,9 +12,11 @@ nav ul {
 nav ul li {
   flex-basis: 25%;
 }
+  /* ------------------------------ END NAVIGATION ---------------------------------------------- */
+/* -------------------------------- END HEADER ----------------------------------------------- */
 
-/* MAIN */
-  /* List of Links - centred, display flex on med-large screen */
+/* -------------------------------- MAIN ----------------------------------------------------- */
+  /* List of Links */
 main ul.centred-list-block {
     display: flex;
 }
@@ -24,5 +28,6 @@ main ul.centred-list-block li a {
     text-align: center;
     flex-basis: auto;
 }
+/* ------------------------------- END MAIN ---------------------------------------------- */
 
 } /* end of media query */

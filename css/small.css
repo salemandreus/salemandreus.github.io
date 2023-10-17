@@ -3,7 +3,7 @@
 /*html {-webkit-text-size-adjust: 100%;      is in normalize.css file - prevents iphones and MS phones
 -ms-text-size-adjust: 100%;}                    from trying to enlarge text between portrait and landscape modes*/
 
-/* BODY */
+/* =================================== BODY =============================================== */
 
 /* Fonts and Background Colour */
 body {
@@ -43,12 +43,13 @@ h2 {
     margin: 0 0.8rem 0.8rem;
 }
 
+/* ------------------------------- HEADER START ----------------------------------------------- */
 div#headerWrapper  {
     background-color:black;
     text-shadow:none;
 }
 
-  /* Navigation Bar */
+  /* ----------------------------- NAVIGATION ---------------------------------------------- */
 nav button {
     margin: 0.2rem 2%;
     background-color: transparent;
@@ -67,6 +68,7 @@ nav li a {
     padding: 0.8rem 2%; /*44 min height */
     text-align: center;
 }
+  /* ----------------------------- END NAVIGATION ---------------------------------------------- */
 
   /* Headings */
 header h1 {
@@ -77,7 +79,7 @@ header h1 {
     margin: 0rem 0.8rem 0rem;
 }
 
-/* MAIN */
+/* -------------------------------- MAIN ----------------------------------------------- */
   /* Section Heading */
 main h1{
     color: #405b66;
@@ -124,12 +126,14 @@ ul.centred-list-block {
 ul.centred-list-block li {
     text-align: left;
 }
+/* ------------------------------- END MAIN ---------------------------------------------- */
 
-/* FOOTER */
+/* ------------------------------- FOOTER ---------------------------------------------- */
 footer {
     clear:both;
     text-align: center;
 }
+/* ------------------------------- END FOOTER ---------------------------------------------- */
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
