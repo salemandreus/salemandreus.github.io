@@ -50,7 +50,10 @@ div#headerWrapper  {
 }
 
   /* ----------------------------- NAVIGATION ---------------------------------------------- */
-nav button {
+nav{
+    background-color: rgba(64, 91, 102, 0.25)
+}
+  nav button {
     margin: 0.2rem 2%;
     background-color: transparent;
     color: #405b66;
@@ -62,10 +65,19 @@ nav ul {
     padding: 0;
     list-style-type: none;
 }
-nav li a {
+nav a {
     display: block;
     padding: 0.8rem 2%; /*44 min height */
-    text-align: center;
+    border-top: 1px solid rgba(64, 91, 102, 0.3); /* RGB value of #405b66 at 3% alpha is 64, 91, 102, 0.3 */
+    text-shadow: 1px 1px 1px rgba(64, 91, 102, 0.03);
+}
+nav a:hover {
+    background-color: rgba(64, 91, 102, 0.4);
+    text-decoration:none;
+}
+nav a.active {
+    background-color: rgba(64, 91, 102, 0.2);
+    text-shadow: none;
 }
   /* ----------------------------- END NAVIGATION ---------------------------------------------- */
 
