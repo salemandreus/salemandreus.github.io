@@ -58,7 +58,7 @@ nav ul {
 }*/
 nav li a {
     display: block;
-    padding: 0.8rem 0.8rem; /*44 min height */
+    padding: 0.8rem 2%; /*44 min height */
     text-align: center;
 }
  
