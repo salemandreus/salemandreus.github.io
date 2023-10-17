@@ -46,7 +46,6 @@ nav button {
     border: none;
     font-size: 1.6rem; /* 44px min height */
 }
-
 nav ul {
     clear:both;
     margin: 0;
@@ -61,8 +60,8 @@ nav li a {
     padding: 0.8rem 2%; /*44 min height */
     text-align: center;
 }
- 
  /* Headings */
+
 header h1 {
     clear:both;
     color:rgb(119, 32, 90);
@@ -91,7 +90,7 @@ main h2{
 }
 
   /* Overview List */
-main ul li{
+main ul li {
     list-style-type: none;
     padding: .5rem 0.8rem;
 }
