@@ -11,7 +11,7 @@ nav ul {
   display:flex;
 }
 nav ul li {
-  flex-basis: 25%;
+  flex-basis: 25%; /*flex-basis: auto;*/
 }
 nav a {
   border: none;
