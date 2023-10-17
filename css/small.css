@@ -61,7 +61,7 @@ nav{
     font-size: 1.6rem; /* 44px min height */
 }
 nav ul {
-    margin: 0;
+    margin-left: 2%;
     padding: 0;
     list-style-type: none;
 }

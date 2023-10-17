@@ -8,7 +8,6 @@ nav button {
   display: none;
 }
 nav ul {
-  margin-left: 2%;
   display:flex;
 }
 nav ul li {
