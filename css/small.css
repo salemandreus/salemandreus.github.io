@@ -18,7 +18,9 @@ body {
 a {
     color:rgb(119, 32, 90);
     text-decoration:none;
+    font-weight: bolder;
 }
+
 a:hover {
     font-weight:bolder;
     text-decoration: underline;
@@ -144,6 +146,14 @@ ul.centred-list-block {
 ul.centred-list-block li {
     text-align: left;
 }
+
+div.call-to-action-block {
+    font-weight: bold;
+}
+span.not-bold{
+    font-weight: normal;
+}
+
 /* ------------------------------- END MAIN ---------------------------------------------- */
 
 /* ------------------------------- FOOTER ---------------------------------------------- */
