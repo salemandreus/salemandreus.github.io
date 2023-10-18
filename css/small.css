@@ -128,7 +128,7 @@ ul.bulleted-list li {
   /* Centred List of Links */
 div.centred-block {
     margin: auto;
-    padding: 0;
+    padding: 0.5rem 0 0;
     text-align: justify;
 }
 ul.centred-list-block {
