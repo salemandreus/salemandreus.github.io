@@ -116,7 +116,7 @@ main h2{
     margin: 0;
 }
 
-  /* Overview List */
+  /* For None-type lists */
 main ul li {
     list-style-type: none;
     padding: 0 0.8rem 1rem;
