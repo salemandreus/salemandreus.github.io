@@ -16,6 +16,8 @@ nav ul li {
 nav a {
   border: none;
   padding: 0.8rem 1rem;
+nav ul > li + li {  /* only have borders in-between menu items */
+  border-left: 1px solid rgba(64, 91, 102, 0.3);;
 }
   /* ------------------------------ END NAVIGATION ---------------------------------------------- */
 /* -------------------------------- END HEADER ----------------------------------------------- */
