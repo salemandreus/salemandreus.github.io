@@ -8,14 +8,16 @@ nav button {
   display: none;
 }
 nav ul {
-  display:flex;
+  display: flex;
 }
 nav ul li {
-  flex-basis: 25%; /*flex-basis: auto;*/
+  display: flex;
+  flex-basis: auto;
 }
 nav a {
   border: none;
-  padding: 0.8rem 1rem;
+  padding: 0.8rem 1rem; /*44 min height */
+}
 nav ul > li + li {  /* only have borders in-between menu items */
   border-left: 1px solid rgba(64, 91, 102, 0.3);;
 }
