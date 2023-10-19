@@ -22,7 +22,7 @@ nav ul li {
   flex-basis: auto;
 }
 nav a {
-  border: none;
+  border-top: none;
   padding: 0.8rem 0.6rem; /*44 min height */
 }
 nav ul > li + li {  /* only have borders in-between menu items */
