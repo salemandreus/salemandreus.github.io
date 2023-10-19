@@ -1,5 +1,8 @@
 /* 35em is also 560px when basefont is 16px */ /* this is also the min size we can fit 5 flexed menu items horizontally */
-@media only screen and (min-width: 35rem) {                   /* and the 4 "centre links" below of current size
+                                                                /* and the 4 "centre links" below of current size
+/* 44 rem is 704 px when basefont is 16px - just large enough to fit current 7 menu items with  0.8rem horizontal padding*/
+/* 41 rem is 656 px  when basefont is 16px - just large enough to fit current 7 menu links with current 0.6 rem horizontal padding */
+@media only screen and (min-width: 41rem) {
 
 /* =================================== BODY =============================================== */
 /* ------------------------------- HEADER START ----------------------------------------------- */
@@ -11,6 +14,7 @@ nav ul.hide {
   display: flex;
 }
 nav ul {
+  margin-left: 0;
   display: flex;
 }
 nav ul li {
@@ -19,7 +23,7 @@ nav ul li {
 }
 nav a {
   border: none;
-  padding: 0.8rem 1rem; /*44 min height */
+  padding: 0.8rem 0.6rem; /*44 min height */
 }
 nav ul > li + li {  /* only have borders in-between menu items */
   border-left: 1px solid rgba(64, 91, 102, 0.3);;
