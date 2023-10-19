@@ -125,32 +125,33 @@ main ul li {
 }
 
   /* Bulleted Lists */
-ul.bulleted-list li {
+main ul.bulleted-list li {
     list-style-type: disc;
-    padding: .5rem 0.8rem;
     margin: 0 2rem 0;
+    padding: .5rem 0.8rem;
 }
 
   /* Centred List of Links */
-div.centred-block {
+main div.centred-block {
     margin: auto;
     padding: 0.5rem 0 0;
     text-align: justify;
 }
-ul.centred-list-block {
+main ul.centred-list-block {
     display:list-item;
     list-style-type: none;
     margin: 0;
     padding: 0 0.8rem;
 }
-ul.centred-list-block li {
+main ul.centred-list-block li {
     text-align: left;
 }
 
-div.call-to-action-block {
+  /* Call-To-Action Block */
+main div.call-to-action-block {
     font-weight: bold;
 }
-span.not-bold{
+main span.not-bold {
     font-weight: normal;
 }
 
