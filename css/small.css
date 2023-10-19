@@ -46,9 +46,6 @@ div#headerWrapper  {
 }
 
   /* ----------------------------- NAVIGATION ---------------------------------------------- */
-nav{
-    background-color: rgba(64, 91, 102, 0.25)
-}
   nav button {
     margin: 0.2rem 2%;
     background-color: transparent;
@@ -81,6 +78,11 @@ nav ul.hide {
     display: none;
 }
   /* ----------------------------- END NAVIGATION ---------------------------------------------- */
+
+div#headingsTopWrapper {
+    background-color: rgba(64, 91, 102, 0.15);
+    text-shadow: 4px 4px 4px black;
+  }
 
   /* Headings */
 header h1 {
