@@ -63,15 +63,17 @@ nav a {
     display: block;
     padding: 0.8rem 2%; /*44 min height */
     border-top: 1px solid rgba(64, 91, 102, 0.3); /* RGB value of #405b66 at 3% alpha is 64, 91, 102, 0.3 */
-    text-shadow: 1px 1px 1px rgba(64, 91, 102, 0.03);
+    font-weight:bolder;
 }
 nav a:hover {
-    background-color: rgba(64, 91, 102, 0.4);
+    background-color: rgba(64, 91, 102, 0.24);
     text-decoration:none;
+    text-shadow: 4px 4px 4px black;
 }
 nav a.active {
-    background-color: rgba(64, 91, 102, 0.2);
+    background-color: rgba(64, 91, 102, 0.15);
     text-shadow: none;
+
 }
 
 nav ul.hide {
