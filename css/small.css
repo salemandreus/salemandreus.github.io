@@ -31,12 +31,6 @@ a.active {
     font-weight:100;
 }
 
-/* All Unordered Lists */
-ul {
-    margin: 0;
-    padding: 0 0.8rem 0.8rem;
-}
-
 /* All H2 Headings */
 h2 {
     color: #405b66;
@@ -63,6 +57,7 @@ nav{
     font-size: 1.6rem; /* 44px min height */
 }
 nav ul {
+    margin: 0;
     margin-left: 2%;
     padding: 0;
     list-style-type: none;
@@ -116,6 +111,11 @@ main h2{
  main p {
     padding: 0 1.6rem;
     margin: 0;
+}
+
+main ul {
+    margin: 0;
+    padding: 0 0.8rem 0.8rem;
 }
 
   /* For None-type lists */
