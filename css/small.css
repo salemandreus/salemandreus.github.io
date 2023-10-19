@@ -171,22 +171,3 @@ footer {
     display: table;
     clear: both;
   }
-
-/*--------------------------------- EXTERNAL TOOLS ---------------------------------------------*/ 
-/* LinkedIn Follow Button */            /*For now I've disabled this style in favour of a regular link, as I don't like the inconsistency of this */
-                                              /* blue button on my site's design */
-/*.libutton {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 7px;
-    text-align: center;
-    outline: none;
-    text-decoration: none !important;
-    color: #ffffff !important;
-    width: 200px;
-    height: 32px;
-    border-radius: 16px;
-    background-color: #0A66C2;
-    font-family: "SF Pro Text", Helvetica, sans-serif;
-  }*/
