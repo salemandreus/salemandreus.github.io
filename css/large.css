@@ -12,7 +12,7 @@ nav ul li {
     float: left;
     flex-basis: 0;
 }
-nav ul li:first-child a span.nav-text {
+nav ul li:first-child a span.nav-text { /* Adjusting first nav item text to be alongside logo */
     margin-top: 15%;
 }
 nav a {

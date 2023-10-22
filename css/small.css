@@ -16,7 +16,7 @@ body {
 
 /* All Links */
 a {
-    color:rgb(119, 32, 90);
+    color:rgb(119, 32, 90); /* #77205a */
     text-decoration:none;
     font-weight: bolder;
 }
@@ -64,7 +64,7 @@ nav ul {
     padding: 0;
     list-style-type: none;
 }
-nav ul li:first-child a span.nav-text {
+nav ul li:first-child a span.nav-text { /* Adjusting first nav item text to be alongside logo */
     float : left ;
     margin-top : 5%;
 }
