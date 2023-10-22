@@ -12,6 +12,9 @@ nav ul li {
     float: left;
     flex-basis: 0;
 }
+nav ul li:first-child a span.nav-text {
+    margin-top: 15%;
+}
 nav a {
     display: flex;
     padding: 0.6rem 1rem; /*0.5rem;*/

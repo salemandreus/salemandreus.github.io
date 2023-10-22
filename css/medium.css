@@ -10,6 +10,10 @@
 nav button {
   display: none;
 }
+  nav figure.logo {
+    width : 100%;
+    margin : 0%;
+}
 nav ul.hide {
   display: flex;
 }
