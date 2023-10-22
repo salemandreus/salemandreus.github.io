@@ -141,6 +141,11 @@ main ul.bulleted-list li {
     margin: 0 2rem 0;
     padding: .5rem 0.8rem;
 }
+main ul li.bulleted-sublist {
+    list-style-type: circle;
+    margin-left: 4rem;
+    /* padding: .5rem 0.8rem; */
+}
 
   /* Centred List of Links */
 main div.centred-block {
