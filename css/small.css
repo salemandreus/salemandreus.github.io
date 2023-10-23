@@ -7,7 +7,7 @@
 
 /* Fonts and Background Colour */
 body {
-    font-family: 'Lato', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lato', Calibri, /*'Trebuchet MS', */ sans-serif;
     font-size: 16px;
     text-shadow: 0.4em 0.4em 0.4em #868686;
     /*background-image: url("Black Blue Abstract Wallpaper 2781 Hd Wallpapers in Abstract.jpg");*/
