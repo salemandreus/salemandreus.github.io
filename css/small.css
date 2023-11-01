@@ -80,9 +80,10 @@ nav a:hover {
     text-shadow: 4px 4px 4px black;
 }
 nav a.active {
-    background-color: rgba(64, 91, 102, 0.15);
-    text-shadow: none;
-
+    background-color: rgba(64, 91, 102, 0.25);
+    /* text-shadow: none; */
+    font-weight:bolder;
+    text-shadow: 4px 4px 4px black
 }
 
 nav ul.hide {
@@ -91,7 +92,7 @@ nav ul.hide {
   /* ----------------------------- END NAVIGATION ---------------------------------------------- */
 
 div#headingsTopWrapper {
-    background-color: rgba(64, 91, 102, 0.15);
+    background-color: rgba(64, 91, 102, 0.25);
     text-shadow: 4px 4px 4px black;
   }
 
