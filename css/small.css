@@ -136,6 +136,21 @@ main ul li {
     padding: 0 0.8rem 1rem;
 }
 
+  /* For imported Images and emoji as icons alongside text - easiest displayed as a horizontal unbulleted list like the navbar */
+main span.icon-emoji {
+    font-size: 20px;
+}
+
+main span.icon-text {
+    vertical-align: middle;
+}
+
+main ul.icon-and-text li {
+    float : left ;
+    display:block;
+    padding: 0 0 0 0.65rem;
+}
+
   /* Bulleted Lists */
 main ul.bulleted-list li {
     list-style-type: disc;
