@@ -8,8 +8,8 @@
 /* Fonts and Background Colour */
 body {
     font-family: 'Lato', Calibri, /*'Trebuchet MS', */ sans-serif;
-    font-size: 16px;
-    text-shadow: 0.4em 0.4em 0.4em #868686;
+    font-size: 1rem;/*16px;*/
+    text-shadow: 0.4rem 0.4rem 0.4rem #868686;
     /*background-image: url("Black Blue Abstract Wallpaper 2781 Hd Wallpapers in Abstract.jpg");*/
     background-color: #aaa;
 }
@@ -71,19 +71,19 @@ nav ul li:first-child a span.nav-text { /* Adjusting first nav item text to be a
 nav a {
     display: block;
     padding: 0.8rem 2%; /*44 min height */
-    border-top: 1px solid rgba(64, 91, 102, 0.3); /* RGB value of #405b66 at 3% alpha is 64, 91, 102, 0.3 */
+    border-top: 0.06rem solid rgba(64, 91, 102, 0.3); /* RGB value of #405b66 at 3% alpha is 64, 91, 102, 0.3 */
     font-weight:bolder;
 }
 nav a:hover {
     background-color: rgba(64, 91, 102, 0.24);
     text-decoration:none;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 0.3rem 0.3rem 0.3rem black;
 }
 nav a.active {
     background-color: rgba(64, 91, 102, 0.25);
     /* text-shadow: none; */
     font-weight:bolder;
-    text-shadow: 4px 4px 4px black
+    text-shadow: 0.3rem 0.3rem 0.3rem black
 }
 
 nav ul.hide {
@@ -93,7 +93,7 @@ nav ul.hide {
 
 div#headingsTopWrapper {
     background-color: rgba(64, 91, 102, 0.25);
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 0.3rem 0.3rem 0.3rem black;
   }
 
   /* Headings */
@@ -138,7 +138,7 @@ main ul li {
 
   /* For imported Images and emoji as icons alongside text - easiest displayed as a horizontal unbulleted list like the navbar */
 main span.icon-emoji {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 main span.icon-text {
