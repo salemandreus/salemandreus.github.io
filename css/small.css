@@ -136,7 +136,23 @@ main ul li {
     padding: 0 0.8rem 1rem;
 }
 
+  /* Bulleted Lists */
+main ul.bulleted-list li {
+    list-style-type: disc;
+    margin: 0 2rem 0;
+    padding: 0.5rem 0.8rem;
+}
+main ul li.bulleted-sublist {
+    list-style-type: circle;
+    margin-left: 4rem;
+    /* padding: .5rem 0.8rem; */
+}
+
   /* Icon-with-text "lists" */                  /* For imported Images and emoji as icons alongside text - easiest displayed as a horizontal unbulleted list like the navbar */
+main ul.icon-and-text {
+    margin-bottom: 0.65rem;
+}
+
 main span.icon-emoji {
     font-size: 1.25rem;
 }
@@ -148,21 +164,6 @@ main ul.icon-and-text li {
     float : left ;
     display:block;
     padding: 0 0 0 0.65rem;
-}
-main ul.icon-and-text {
-    margin-bottom: 0.65rem;
-}
-
-  /* Bulleted Lists */
-main ul.bulleted-list li {
-    list-style-type: disc;
-    margin: 0 2rem 0;
-    padding: .5rem 0.8rem;
-}
-main ul li.bulleted-sublist {
-    list-style-type: circle;
-    margin-left: 4rem;
-    /* padding: .5rem 0.8rem; */
 }
 
   /* Centred List of Links */
