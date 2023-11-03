@@ -149,17 +149,25 @@ main ul li.bulleted-sublist {
 }
 
   /* Icon-with-text "lists" */                  /* For imported Images and emoji as icons alongside text - easiest displayed as a horizontal unbulleted list like the navbar */
-main ul li.bulleted-icon-list-item {    /* bulleted li containing the icon with text "list"*/
+main ul li.bulleted-icon-list-item, li.bulleted-icon-sublist-item {    /* bulleted li containing the icon with text "list"*/
     padding: 0;
 }
-main ul li.bulleted-icon-list-item ul.icon-and-text {
+main ul li.bulleted-icon-sublist-item {
+    list-style-type: circle;
+    margin-left: 4rem;
+}
+main ul li.bulleted-icon-list-item ul.icon-and-text, li.bulleted-icon-sublist-item  ul.icon-and-text {
     padding-left: 0;
+}
+main ul li.bulleted-icon-sublist-item  ul.icon-and-text li{
+    padding-left: 0;
+    padding-right: 0.5rem;
 }
 main ul.icon-and-text {
     margin-bottom: 0.65rem;
 }
 main span.icon-emoji {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 main span.icon-text {
     vertical-align: middle;
