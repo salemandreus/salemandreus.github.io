@@ -149,10 +149,15 @@ main ul li.bulleted-sublist {
 }
 
   /* Icon-with-text "lists" */                  /* For imported Images and emoji as icons alongside text - easiest displayed as a horizontal unbulleted list like the navbar */
+main ul li.bulleted-icon-list-item {    /* bulleted li containing the icon with text "list"*/
+    padding: 0;
+}
+main ul li.bulleted-icon-list-item ul.icon-and-text {
+    padding-left: 0;
+}
 main ul.icon-and-text {
     margin-bottom: 0.65rem;
 }
-
 main span.icon-emoji {
     font-size: 1.25rem;
 }
@@ -164,6 +169,8 @@ main ul.icon-and-text li {
     float : left ;
     display:block;
     padding: 0 0 0 0.65rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
   /* Centred List of Links */
