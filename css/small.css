@@ -153,6 +153,7 @@ main ul li.bulleted-icon-list-item, li.bulleted-icon-sublist-item {    /* bullet
     padding: 0;
 }
 main ul li.bulleted-icon-sublist-item {
+    clear:both;
     list-style-type: circle;
     margin-left: 4rem;
 }
