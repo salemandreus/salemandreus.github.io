@@ -200,6 +200,7 @@ main ul.centred-list-block li {
 
   /* Call-To-Action Block */
 main div.call-to-action-block {
+    clear:both;
     font-weight: bold;
 }
 main span.not-bold {
