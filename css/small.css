@@ -137,6 +137,9 @@ main ul li {
 }
 
   /* Bulleted Lists */
+main ul.bulleted-list {
+    padding-bottom: 0;
+}
 main ul.bulleted-list li {
     list-style-type: disc;
     margin: 0 2rem 0;
