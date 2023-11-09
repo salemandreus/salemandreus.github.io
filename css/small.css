@@ -127,13 +127,13 @@ main h2{
 
 main ul {
     margin: 0;
-    padding: 0 0.8rem 0.8rem;
+    padding: 0 0.8rem 1.2rem;
 }
 
   /* For None-type lists */
 main ul li {
     list-style-type: none;
-    padding: 0 0.8rem 1rem;
+    padding: 0 0.8rem 1.2rem;
 }
 
   /* Bulleted Lists */
