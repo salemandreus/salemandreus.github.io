@@ -1,3 +1,3 @@
-This is my resumé website.
+## This is my resumé website.
 
-You can view it live at: https://salemandreus.github.io/ .
+You can view it live [here](https://salemandreus.github.io) .
