@@ -200,6 +200,10 @@ main ul.centred-list-block {
 main ul.centred-list-block li {
     text-align: left;
 }
+main ul.non-bulleted-icon-and-text{
+    clear:both;
+    padding-top: 1.8rem;
+}
 
   /* Call-To-Action Block */
 main div.call-to-action-block {
