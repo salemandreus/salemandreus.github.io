@@ -147,6 +147,16 @@ main ul.bulleted-list li {
 }
 main ul li.bulleted-sublist {
     list-style-type: circle;
+    margin-left: 2rem;
+    /* padding: .5rem 0.8rem; */
+}
+main ul.bulleted-sub-sublist {
+    list-style-type:disc;
+    margin-left: 2rem;
+    padding-bottom: 0;
+}
+main ul li.bulleted-sub-sublist {
+    list-style-type:disc;
     margin-left: 4rem;
     /* padding: .5rem 0.8rem; */
 }
